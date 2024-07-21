@@ -24,7 +24,7 @@ const ArchievedNotes = () => {
             },
         };
 
-        const url = 'http://localhost:8000/notes/Archieved';
+        const url = 'https://aposanabackendnotes.onrender.com/notes/Archieved';
 
         try {
             const response = await fetch(url, options);
@@ -95,7 +95,7 @@ const ArchievedNotes = () => {
 
         try {
             const response = await fetch(
-                'http://localhost:8000/notes/',
+                'https://aposanabackendnotes.onrender.com/notes/',
                 options
             );
             if (!response.ok) {
